@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <header className="text-center py-8 bg-gray-800 text-white">
-        <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
+        <h1 className="text-4xl font-bold">Shahbaz Nawaz</h1>
         <p className="mt-4">Discover My Work and Projects</p>
       </header>
       <section id="projects" className="py-12">
