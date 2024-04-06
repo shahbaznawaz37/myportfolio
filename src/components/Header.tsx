@@ -3,14 +3,10 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="flex bg-slate-200 p-3 gap-4">
-      <Link className="ml-12" href="/">
-        Home
-      </Link>
-      <Link href="/Dashboard">Dashboard</Link>
-      <Link href="/Dashboard/Settings">Settings</Link>
-      <Link href="/Blog">Blogs</Link>
-    </div>
+    <header className="fixed top-0 w-full text-center py-8 bg-gray-800 text-white">
+      <h1 className="text-4xl font-bold">Shahbaz Nawaz</h1>
+      <p className="mt-1">MERN Stack Developer</p>
+    </header>
   );
 }
 
